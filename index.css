@@ -176,6 +176,19 @@ section {
     text-align: left;
     font-size: 44px;
     line-height: 1.12;
+     animation: fadeSlide 2s ease-in-out forwards;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero p {
