@@ -192,6 +192,11 @@ section {
     gap: 14px;
     margin-top: 28px;
 }
+.hero-buttons1 { 
+    margin: 25px;
+    padding: 10px;
+}
+
 
 .hero-buttons a {
     display: inline-flex;
@@ -203,6 +208,17 @@ section {
     background-color: #22c55e;
     color: #03130b;
     font-weight: 700;
+}
+.hero-buttons1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding:  18px;
+    border-radius: 6px;
+    background-color: #22c55e;
+    color: #03130b;
+    font-weight: 700;   
 }
 
 .hero-buttons a:last-child {
